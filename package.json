@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.775.0",
+    "readline-sync": "^1.4.10"
+  }
+}
