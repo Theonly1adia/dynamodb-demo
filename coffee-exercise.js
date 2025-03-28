@@ -66,7 +66,7 @@ async function viewOrderDetails(orderId) {
         }
 
         console.log("Order Details:");
-        console.log(`Order ID: ${response.Item.orderID.S}`);
+        console.log(`Order ID: ${response.Item.orderId.S}`);
         console.log(`Customer Name: ${response.Item.customerName.S}`);
         console.log(`Coffee Type: ${response.Item.coffeeType.S}`);
         console.log(`Quantity: ${response.Item.quantity.N}`);
